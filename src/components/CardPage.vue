@@ -1,0 +1,174 @@
+<template>
+  <div class="cardpage">
+    <mdb-card
+      v-for="place in places"
+      :key="place.id"
+    >
+      <mdb-card-image :src="place.image" ></mdb-card-image>
+      <mdb-card-body style="color:white; white-space: normal;">
+        <mdb-card-title style="color:white;white-space: normal;">{{
+          place.name
+        }}</mdb-card-title>
+        <mdb-card-text style="color:white;white-space: normal;">{{
+          place.text
+        }}</mdb-card-text>
+<a :href="place.description">MORE</a>
+      </mdb-card-body>
+    </mdb-card>
+  </div>
+</template>
+
+<script>
+
+
+import {
+  mdbCard,
+  mdbCardImage,
+  mdbCardBody,
+  mdbCardTitle,
+  mdbCardText,
+  mdbBtn,
+} from "mdbvue";
+export default {
+  name: "CardPage",
+  components: {
+    mdbCard,
+    mdbCardImage,
+    mdbCardBody,
+    mdbCardTitle,
+    mdbCardText,
+    mdbBtn,
+  },
+  data() {
+    return {
+      places: [
+        {
+          id: "0",
+          image: require("../assets/alta1.jpg"),
+          name: "ALTA",
+            description:"https://i.pinimg.com/564x/dd/a5/35/dda535db2ac7026a41e18a36812b4bc3.jpg",
+          text:
+            "Alta is located in the heart of Sarajevo's central business district and features six levels of retail stores that include a lower level and two underground parking levels. Modern glass facades on multiple entrances offer openness to the main entrance square and the main road across from the BiH Parliament building. ",
+        },
+        {
+          id: "1",
+          image: "https://i.pinimg.com/564x/88/d0/c3/88d0c3111405a1c3c2f59faa121aae0d.jpg",
+          name: "BAŠČARŠIJA",
+          description:"http://www.bbicentar.ba/bh/",
+          text:
+            "Bascarsija is old Sarajevo`s bazaar, and historical and cultural center of the city. It was built in the 15th century when in this area were 45 bazaars. People from Sarajevo eventually merged the whole area and called it Bascarsija. ",
+        },
+        {
+          id: "2",
+          image: "https://i.pinimg.com/564x/70/21/53/7021533c9f7e88ba62436d5b8d134360.jpg",
+          name: "BBI",
+          text:
+            "BBI center is a shopping and business center in the center of Sarajevo, built on the site of the former department store Sarajka. It was officially opened on April 6, 2009. It spreads over 43,000 square meters of office space with 464 parking spaces spread over 3 floors.",
+        },
+        {
+          id: "3",
+          image: "https://i.pinimg.com/564x/37/d3/e3/37d3e3dd815b47426b5ee7949e6968d1.jpg",
+          name: "BKC",
+          description:"https://bkc.ba/",
+          text:
+            "Bosnian Cultural Center, the magnificent Jewish (Sephardic) Temple, today the temple of culture is located in the center of Sarajevo, the capital of Bosnia and Herzegovina.",
+        },
+        {
+          id: "4",
+          image: "https://i.pinimg.com/564x/db/7e/f4/db7ef417226ff6f12813deff3ce5f41c.jpg",
+          name: "The Cathedral of the Heart of Jesus ",
+          description:"https://katedrala-sarajevo.com/",
+          text:
+            "The Cathedral of the Heart of Jesus is the church of the Vrhbosna Archdiocese, built in 1889 in the neo-Gothic style. The cathedral was a completely new and authentic building. ",
+        },
+        {
+          id: "5",
+          image: "https://i.pinimg.com/564x/88/69/7e/88697e39f3f505aa8c0a7c6a068d2b63.jpg",
+          name: "ART GALLERY",
+          description:"https://ugbih.ba/",
+          text:
+            "The Cathedral in Sarajevo is one of the largest Orthodox churches in the Balkans. The church is located in the city center, next to the Faculty of Economics, on the right side of the river Miljacka. ",
+        },
+        {
+          id: "6",
+          image: "",
+          name: "VIJEĆNICA",
+          description:"https://www.vijecnica.ba/",
+          text:
+            "Sarajevo City Hall, known as Vijećnica, is located in the city of Sarajevo. It was designed in 1891 by the Czech architect Karel Pařík, but criticisms by the minister, Baron Benjamin Kallay, caused him to stop working on the project. ",
+        },
+        {
+          id: "8",
+          image: "https://i.pinimg.com/564x/69/87/55/6987551395f0a33e1d57d3c90e54e65f.jpg",
+          name: "HOTEL EUROPE",
+          text:
+            "Hotel Europe - which has been operating under the name Hotel Europe since 2008 - is the first modern hotel built in Sarajevo. It was built in 1882 by Gligorije Jeftanović, the zenjil of Sarajevo, as the official paper calls it on that occasion. The street in which the hotel was built was also named after him. The hotel was designed by Karlo Paržik, and was officially opened on December 12, 1882.",
+        },
+        {
+          id: "9",
+          image: "https://i.pinimg.com/564x/9d/4b/3d/9d4b3d6bf6489715d309f4e40b145642.jpg",
+          name: "NATIONAL MUSEUM",
+          text:
+            "It was established in 1888, having originally been conceived around 1850. In 1913, the museum building was expanded by the Czech architect Karel Pařík who designed a structure of four symmetric pavilions with a facade in the Italian Renaissance Revival style. The four pavilions contain the departments of archaeology, ethnology, natural history, and a library.",
+        },
+
+      ],
+    };
+  },
+};
+</script>
+
+<style scoped>
+* {
+  margin: 5px;
+}
+.cardpage{
+  width:80%;
+  align-content:center;
+  align-items:center;
+
+  }
+.card{
+  height:500px;
+  width:80%;   
+  display:inline-flex;
+  flex-direction: row ; 
+  background:rgba(0,0,0,0.8); 
+  align-content: flex-start; 
+  flex-wrap: nowrap; 
+
+
+
+
+}
+.img-fluid {
+width:666px;
+    height: 550px;}
+a{
+  	box-shadow: 0px 0px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom,  #e4af77 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:13px;
+	border:1px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+  font-family: "Poppins", sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:11px 22px;
+  bottom:10px;
+	text-decoration:none;
+align-items: center;
+  align-content: center;
+	text-shadow:0px -1px 14px #ffffff;
+}
+a:hover{
+  	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+a:active{
+  	position:relative;
+	top:1px;
+}
+</style>
