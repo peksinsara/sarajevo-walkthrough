@@ -73,8 +73,5 @@ body{
 .img-src {
   height: 400px !Important;
 }
-.img-src{
-  max-width:900px !important;
-  max-height:600px !important;
-}
+
 </style>

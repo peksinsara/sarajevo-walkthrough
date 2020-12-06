@@ -65,7 +65,7 @@
             </div>
 
               <div class="inputBox">
-              <button >Submit</button>
+              <button onclick="window.alert('Radit će nekad')">Submit</button>
             </div>
           </form>
         </div>

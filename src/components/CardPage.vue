@@ -44,7 +44,7 @@ export default {
       places: [
         {
           id: "0",
-          image: require("../assets/alta1.jpg"),
+          image: "https://i.pinimg.com/564x/dd/a5/35/dda535db2ac7026a41e18a36812b4bc3.jpg",
           name: "ALTA",
             description:"https://i.pinimg.com/564x/dd/a5/35/dda535db2ac7026a41e18a36812b4bc3.jpg",
           text:
@@ -126,7 +126,7 @@ export default {
   width:80%;
   align-content:center;
   align-items:center;
-
+margin-top:80%;
   }
 .card{
 
@@ -136,12 +136,8 @@ export default {
   background:rgba(0,0,0,0.8); 
   align-content: flex-start; 
   flex-wrap: nowrap; 
-top:80%;
+
 }
-
-
-
-
 
 .img-fluid {
 width:666px;
