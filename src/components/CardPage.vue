@@ -48,7 +48,7 @@ export default {
           name: "ALTA",
             description:"https://i.pinimg.com/564x/dd/a5/35/dda535db2ac7026a41e18a36812b4bc3.jpg",
           text:
-            "Alta is located in the heart of Sarajevo's central business district and features six levels of retail stores that include a lower level and two underground parking levels. Modern glass facades on multiple entrances offer openness to the main entrance square and the main road across from the BiH Parliament building. ",
+            "Alta is located in the heart of Sarajevo's central business district and features six levels of retail stores that include a lower level and two underground parking levels. Modern glass facades on multiple entrances offer openness to the main entrance square and the main road across from the BiH Parliament building. The upper floors and rooftop restaurants offer views of the picturesque valley behind. The exterior facades have complex intertwined concrete slabs that symbolize the Bosnian junction of the entrance to the old commercial part on the one hand and modern development on the other. ",
         },
         {
           id: "1",
@@ -71,7 +71,7 @@ export default {
           name: "BKC",
           description:"https://bkc.ba/",
           text:
-            "Bosnian Cultural Center, the magnificent Jewish (Sephardic) Temple, today the temple of culture is located in the center of Sarajevo, the capital of Bosnia and Herzegovina.",
+            "Bosnian Cultural Center, the magnificent Jewish (Sephardic) Temple, today the temple of culture is located in the center of Sarajevo, the capital of Bosnia and Herzegovina.Built according to the project of the architect Rudolf Lubinski, the temple was completed in 1930, and was characterized by, at that time, the third largest copper dome in Europe.",
         },
         {
           id: "4",
@@ -79,7 +79,7 @@ export default {
           name: "The Cathedral of the Heart of Jesus ",
           description:"https://katedrala-sarajevo.com/",
           text:
-            "The Cathedral of the Heart of Jesus is the church of the Vrhbosna Archdiocese, built in 1889 in the neo-Gothic style. The cathedral was a completely new and authentic building. ",
+            "The Cathedral of the Heart of Jesus is the church of the Vrhbosna Archdiocese, built in 1889 in the neo-Gothic style. The cathedral was a completely new and authentic building. The interior of the church was richly decorated, and the famous Italian-German painter Alexander Maximilian Seitz was in charge of the fresco painting. The cathedral is located in the old part of Sarajevo.",
         },
         {
           id: "5",
@@ -87,7 +87,7 @@ export default {
           name: "ART GALLERY",
           description:"https://ugbih.ba/",
           text:
-            "The Cathedral in Sarajevo is one of the largest Orthodox churches in the Balkans. The church is located in the city center, next to the Faculty of Economics, on the right side of the river Miljacka. ",
+            "The Art Gallery of Bosnia and Herzegovina, founded in 1946, studies and preserves over 6,000 works of modern and contemporary art, representing, from the point of view of visual art, the oldest and most important museum institution in Bosnia and Herzegovina. The building in which it is located today was built around 1912 as a department store of Yeshua and Mojca Salom. It is presumed to be the work of Josip Vancaš. ",
         },
         {
           id: "6",
@@ -95,7 +95,7 @@ export default {
           name: "VIJEĆNICA",
           description:"https://www.vijecnica.ba/",
           text:
-            "Sarajevo City Hall, known as Vijećnica, is located in the city of Sarajevo. It was designed in 1891 by the Czech architect Karel Pařík, but criticisms by the minister, Baron Benjamin Kallay, caused him to stop working on the project. ",
+            "Sarajevo City Hall, known as Vijećnica, is located in the city of Sarajevo. It was designed in 1891 by the Czech architect Karel Pařík, but criticisms by the minister, Baron Benjamin Kallay, caused him to stop working on the project. It was initially the largest and most representative building of the Austro-Hungarian period in Sarajevo and served as the city hall. On 25 August 1992, Serbian shelling during the Siege of Sarajevo caused the complete destruction of the library; among the losses were about 700 manuscripts and incunabula and a unique collection of Bosnian serial publications, some from the middle of the 19th century Bosnian cultural revival",
         },
         {
           id: "8",
@@ -129,21 +129,23 @@ export default {
 
   }
 .card{
-  height:500px;
-  width:80%;   
+
+  width:1400px;   
   display:inline-flex;
   flex-direction: row ; 
   background:rgba(0,0,0,0.8); 
   align-content: flex-start; 
   flex-wrap: nowrap; 
-
-
-
-
+top:80%;
 }
+
+
+
+
+
 .img-fluid {
 width:666px;
-    height: 550px;}
+    height: 550px !important;}
 a{
   	box-shadow: 0px 0px 0px 0px #1c1b18;
 	background:linear-gradient(to bottom,  #e4af77 5%, #ccc2a6 100%);
@@ -157,7 +159,7 @@ a{
 	font-size:14px;
 	font-weight:bold;
 	padding:11px 22px;
-  bottom:10px;
+  top:90%;
 	text-decoration:none;
 align-items: center;
   align-content: center;

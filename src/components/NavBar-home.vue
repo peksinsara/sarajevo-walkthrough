@@ -3,7 +3,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Sarajevo Walktrough</a>
+        <a class="navbar-brand" href="./#/landingpage">Sarajevo Walktrough</a>
         <button
           aria-controls="navbarSupportedContent"
           aria-expanded="false"

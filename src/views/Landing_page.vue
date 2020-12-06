@@ -1,8 +1,10 @@
 <template>
   <div class="video-bg">
     <video autoplay muted loop>
-            <source src="https://cdn.videvo.net/videvo_files/video/free/2020-03/small_watermarked/200207_London%20Streets_1_4k_005_preview.webm" type="video/mp4" />
-
+      <source
+        src="https://cdn.videvo.net/videvo_files/video/free/2020-03/small_watermarked/200207_London%20Streets_1_4k_005_preview.webm"
+        type="video/mp4"
+      />
     </video>
     <div class="content">
       <h1>Wellcome to Sarajevo Walkthrough</h1>
@@ -42,21 +44,20 @@ body {
   pointer-events: none;
 }
 .video-bg content {
-  position: relative;
+  position: absolute;
   z-index: 1;
   max-width: 400px;
-  justify-content:center;
-margin-top:50;
+  justify-content: center;
+  margin-top: 50;
   text-align: center;
-  align-content:center;
+  align-content: center;
 }
 .video-bg .content h1 {
-    margin-top:30%;
+  margin-top: 30%;
   font-size: 4em;
   text-transform: uppercase;
   color: white;
-  font-weight:700;
-
+  font-weight: 700;
 }
 a {
   box-shadow: 0px 0px 0px 0px #1c1b18;
@@ -70,7 +71,7 @@ a {
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: bold;
-  margin-left:40%;
+  margin-left: 40%;
   padding: 11px 22px;
   text-decoration: none;
   align-items: center;

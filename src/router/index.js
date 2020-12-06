@@ -5,6 +5,7 @@ import About from '../views/About.vue'
 import Places from '../views/Places.vue'
 import Contact from '../views/Contact.vue'
 import Gallery from '../views/Gallery.vue'
+import Landing_page from '../views/Landing_page.vue'
 
 Vue.use(VueRouter)
 
@@ -13,6 +14,11 @@ const routes = [
     path: '/home',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/landingpage',
+    name: 'Landing_page',
+    component: Landing_page
   },
   {
     path: '/about',
