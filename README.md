@@ -26,8 +26,8 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # project details
-Naziv Fakulteta: Fakultet za saobraćaj i komunikacije \n
-Naziv projekta: Sarajevo Walkthrough
+Naziv Fakulteta: Fakultet za saobraćaj i komunikacije 
+Naziv projekta: Sarajevo Walkthrough 
 Ime profesora: doc.dr. Damir Omerašević
 Imena učesnika projekta:
 • Adnan Aličić
