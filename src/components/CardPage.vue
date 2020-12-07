@@ -46,7 +46,7 @@ export default {
           id: "0",
           image: "https://i.pinimg.com/564x/dd/a5/35/dda535db2ac7026a41e18a36812b4bc3.jpg",
           name: "ALTA",
-            description:"https://i.pinimg.com/564x/dd/a5/35/dda535db2ac7026a41e18a36812b4bc3.jpg",
+            description:"https://www.alta.ba",
           text:
             "Alta is located in the heart of Sarajevo's central business district and features six levels of retail stores that include a lower level and two underground parking levels. Modern glass facades on multiple entrances offer openness to the main entrance square and the main road across from the BiH Parliament building. The upper floors and rooftop restaurants offer views of the picturesque valley behind. The exterior facades have complex intertwined concrete slabs that symbolize the Bosnian junction of the entrance to the old commercial part on the one hand and modern development on the other. ",
         },

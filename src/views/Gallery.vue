@@ -41,7 +41,7 @@
 
     <div class="nature">
       <div class="nature-content">
-        <h2>Nature</h2>
+        <h2></h2>
         <h3>
           Its idyllic mountain setting and diverse heritage makes Sarajevo one
           of Europe’s most intriguing cities. Yet it is its indomitable spirit
@@ -137,7 +137,7 @@ body {
   font-weight: bold;
   font-size: 63px;
   line-height: 80px;
-  right: 5%;
+ right: 12%;
   margin-bottom: 10px;
   float: right;
   color: #ffffff;
@@ -153,7 +153,7 @@ body {
   top: 30%;
   position: relative;
   text-align: right;
-  left: 750px;
+  left: 680px;
   width: 520px;
   height: 340px;
   font-style: normal;

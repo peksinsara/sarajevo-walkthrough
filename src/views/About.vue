@@ -1,4 +1,3 @@
-
 <template>
   <div class="about">
     <section>
@@ -43,8 +42,8 @@
         <div class="box-1">
           <span>1</span>
           <p class="heading">Connect</p>
-          <p class="details">
-            We want to connect all the people around the city and wide so everyone can share different experiences with culture and lifestyle.
+          <p class="details"            We want to connect all the people around the city and wide so
+            everyone can share different experiences with culture and lifestyle.
           </p>
         </div>
         <!--2------------->
@@ -52,7 +51,8 @@
           <span>2</span>
           <p class="heading">Explore</p>
           <p class="details">
- Our team aims to inspire travel, help travelers decide where to go and what to see, and ensure people make the most of their trips.
+            Our team aims to inspire travel, help travelers decide where to go
+            and what to see, and ensure people make the most of their trips.
           </p>
         </div>
         <!--3------------->
@@ -60,7 +60,7 @@
           <span>3</span>
           <p class="heading">Experience</p>
           <p class="details">
-Making sure you have best experience in this town.
+            Making sure you have best experience in this town.
           </p>
         </div>
       </div>
@@ -70,8 +70,8 @@ Making sure you have best experience in this town.
       <a>Contact Us</a>
     </div>
     <div class="footer">
- <Footer></Footer>
- </div>
+      <Footer></Footer>
+    </div>
   </div>
 </template>
 
@@ -81,9 +81,9 @@ import Footer from "../components/Footer.vue";
 
 export default {
   name: "About",
-components:{
-  Footer
-} 
+  components: {
+    Footer,
+  },
 };
 </script>
 
@@ -155,9 +155,7 @@ section {
   transform: translate(-13%, -42%);
 }
 
-button:active {
-  transform: scale(1.1);
-}
+
 .about-container {
   width: 80%;
   height: 330px;
@@ -177,14 +175,14 @@ button:active {
   width: 500px;
 }
 .about-text p:nth-child(1) {
-  color: #403e3e;
+  color: #313030;
   font-family: myriad pro;
   font-weight: bold;
   font-size: px;
   line-height: 0px;
 }
 .about-text p:nth-child(2) {
-  color: #3e3d3d;
+  color: #2f2e2e;
   font-size: 13px;
   font-family: myriad pro;
   font-weight: bold;
@@ -216,7 +214,6 @@ button:active {
   color: #1d1c1c;
   font-size: 30px;
   line-height: 7px;
-
 }
 .services-text p:nth-child(2) {
   font-family: calibri;
@@ -265,7 +262,6 @@ button:active {
 .box-1 span,
 .box-2 span,
 .box-3 span {
-
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -288,7 +284,7 @@ button:active {
 .box-2 p:nth-child(3),
 .box-3 p:nth-child(3) {
   font-family: calibri;
-  color: #8f8f8f;
+  color: #4a4a4a;
   text-align: center;
   width: 230px;
   margin: 0px 0px 20px 0px;
@@ -313,37 +309,32 @@ button:active {
   font-weight: bold;
   border-bottom: 2px solid #ffffff;
 }
-a{
-  	box-shadow: 0px 0px 0px 0px #1c1b18;
-	background:linear-gradient(to bottom,  #e4af77 5%, #ccc2a6 100%);
-	background-color:#eae0c2;
-	border-radius:13px;
-	border:1px solid #333029;
-	display:inline-block;
-	cursor:pointer;
-	color:#505739;
+a {
+  box-shadow: 0px 0px 0px 0px #1c1b18;
+  background: linear-gradient(to bottom, #e4af77 5%, #ccc2a6 100%);
+  background-color: #eae0c2;
+  border-radius: 13px;
+  border: 1px solid #333029;
+  display: inline-block;
+  cursor: pointer;
+  color: #2b2d23;
   font-family: "Poppins", sans-serif;
-	font-size:14px;
-	font-weight:bold;
-	padding:11px 22px;
-	text-decoration:none;
-align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 11px 22px;
+  text-decoration: none;
+  align-items: center;
   align-content: center;
-	text-shadow:0px -1px 14px #ffffff;
+  text-shadow: 0px -1px 14px #ffffff;
 }
-a:hover{
-  	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
-	background-color:#ccc2a6;
+a:hover {
+  background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  background-color: #ccc2a6;
 }
-a:active{
-  	position:relative;
-	top:1px;
+a:active {
+  position: relative;
+  top: 1px;
 }
-
-
-
-
-
 
 @media (max-width: 1000px) {
   * {
@@ -403,7 +394,6 @@ a:active{
   .contact-me p {
     font-size: 26px;
   }
-
 }
 @media (max-width: 750px) {
   section {
@@ -427,7 +417,6 @@ a:active{
     transform: translate(-50%, -50%);
     width: 80%;
   }
-  
 
   .about-container {
     top: 0px;
@@ -450,7 +439,5 @@ a:active{
   .contact-me p {
     font-size: 18px;
   }
-
 }
-
 </style>
