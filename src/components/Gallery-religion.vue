@@ -70,5 +70,7 @@ export default {
 </script>
 
 <style scoped>
-
+#gallery-religion{
+  height:500px;
+}
 </style>

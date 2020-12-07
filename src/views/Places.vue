@@ -62,7 +62,7 @@ top:80%;
   position:absolute;
   align-content: center;
   align-items: center;
-  left:24%;
+ 
 
 }
 

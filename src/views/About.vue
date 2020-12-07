@@ -42,7 +42,8 @@
         <div class="box-1">
           <span>1</span>
           <p class="heading">Connect</p>
-          <p class="details"            We want to connect all the people around the city and wide so
+          <p class="details">
+            We want to connect all the people around the city and wide so
             everyone can share different experiences with culture and lifestyle.
           </p>
         </div>
@@ -154,7 +155,6 @@ section {
   top: 42%;
   transform: translate(-13%, -42%);
 }
-
 
 .about-container {
   width: 80%;

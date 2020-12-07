@@ -111,6 +111,22 @@ export default {
           text:
             "It was established in 1888, having originally been conceived around 1850. In 1913, the museum building was expanded by the Czech architect Karel Pařík who designed a structure of four symmetric pavilions with a facade in the Italian Renaissance Revival style. The four pavilions contain the departments of archaeology, ethnology, natural history, and a library.",
         },
+                {
+          id: "10",
+          image: "https://i.pinimg.com/564x/86/f4/73/86f473a3ed83fd95a345f86b9a36664b.jpg",
+          name: "BEZISTAN",
+          description:"https://hr.wikipedia.org/wiki/Gazi_Husrev-begov_bezistan",
+          text:
+            "Gazi Husrev-beg's bezistan is one of the preserved bezistan in Sarajevo, which still serves its purpose-trade. Bezistan is part of the endowment of Gazi Husrev-beg. It was built in 1555 in the immediate vicinity of the Kursumli Madrasa, the Bey's Mosque and the Clock Tower, with which it is connected by an eastern entrance. It is rectangular in shape with entrances, which border a 109 m long street in which small shops are located. ",
+        },
+                        {
+          id: "11",
+          image: "https://i.pinimg.com/564x/dd/37/ab/dd37ab486cd56c6a38a3fc3761ae5541.jpg",
+          name: "CAFFEE ĆEJF",
+          description:"https://www.instagram.com/ministryofcejf/?hl=hr",
+          text:
+            "Ministry of Ćejf is a coffee house located a short walk from Sebilj, in the Kovači street, Sarajevo’s most famous landmark. The cafe was opened by Reshad who wanted the cafe to be his base where he would rest, enjoy and he wanted it to be in the bazaar. Reshad has arranged a cafe in his interesting style, which serves Bosnian, Arabic, but also Italian coffee, various homemade juices, salep, baklava and other Bosnian cakes.",
+        },
 
       ],
     };
@@ -123,14 +139,14 @@ export default {
   margin: 5px;
 }
 .cardpage{
-  width:80%;
+  width:100%;
   align-content:center;
   align-items:center;
 margin-top:80%;
   }
 .card{
 
-  width:1400px;   
+   align-content:center;
   display:inline-flex;
   flex-direction: row ; 
   background:rgba(0,0,0,0.8); 
@@ -141,7 +157,8 @@ margin-top:80%;
 
 .img-fluid {
 width:666px;
-    height: 550px !important;}
+    height: 500px !important;}
+
 a{
   	box-shadow: 0px 0px 0px 0px #1c1b18;
 	background:linear-gradient(to bottom,  #e4af77 5%, #ccc2a6 100%);
