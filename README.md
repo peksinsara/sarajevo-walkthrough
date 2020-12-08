@@ -1,6 +1,10 @@
 # sarajevo-walkthrough
 
 ## Project setup
+## Install npm
+```
+npm install npm@latest -g
+```
 ## Install vue
 ```
 npm install -g @vue/cli
