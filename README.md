@@ -9,14 +9,14 @@ install Node.js
 ```
 npm install npm@latest -g
 ```
+```
+npm install 
+```
 ## Install vue
 ```
 npm install -g @vue/cli
 ```
-## Install npm
-```
-npm install 
-```
+
 
 ### Compiles and hot-reloads for development
 ### Open Visual Studio Code terminal and type
