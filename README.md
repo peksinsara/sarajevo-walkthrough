@@ -15,7 +15,7 @@ npm install -g @vue/cli
 ```
 ## Install npm
 ```
-npm install (https://nodejs.org/)
+npm install 
 ```
 
 ### Compiles and hot-reloads for development
