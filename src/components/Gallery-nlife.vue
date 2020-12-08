@@ -62,14 +62,6 @@ export default {
 body{
   background-color:black !important;
 }
-#gallery {
-  width:50%;
-  height: 50% !important;
-  padding: 20px;
-  align-content: center;
-  justify-content: center;
-  margin: auto;
-}
 
 .img-src{
   max-width:900px !important;

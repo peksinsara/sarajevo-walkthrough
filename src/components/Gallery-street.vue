@@ -17,6 +17,7 @@
       <b-carousel-slide
         caption="Source: Dream Team"
         text=""
+        
         img-src="https://i.pinimg.com/564x/25/eb/79/25eb797f4fe4267466772ea33c34b2f7.jpg"
       ></b-carousel-slide>
 
@@ -59,14 +60,7 @@ export default {
 body{
   background-color:black !important;
 }
-#gallery {
-  width:50%;
-  height: 50% !important;
-  padding: 20px;
-  align-content: center;
-  justify-content: center;
-  margin: auto;
-}
+
 .img-src {
   height: 400px !Important;
 }
