@@ -3,6 +3,10 @@
 ## Project setup
 ## Install npm
 ```
+install [node] ( 
+```
+
+```
 npm install npm@latest -g
 ```
 ## Install vue
@@ -11,7 +15,7 @@ npm install -g @vue/cli
 ```
 ## Install npm
 ```
-npm install
+npm install (https://nodejs.org/)
 ```
 
 ### Compiles and hot-reloads for development
