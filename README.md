@@ -3,7 +3,7 @@
 ## Project setup
 ## Install npm
 ```
-install [node] ( 
+install Node.js
 ```
 
 ```
